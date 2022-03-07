@@ -1,3 +1,11 @@
 div {
   color: #707070;
 }
+.shadow-card {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.shadow-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
